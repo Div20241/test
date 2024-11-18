@@ -323,7 +323,7 @@ cd /usr/local/xmrig/build
 $XMRIG_COMMAND
 EOF
                 # Rendi il file xmrig.sh eseguibile
-                sudo chmod +x /usr/bin/xmrig
+                sudo chmod +x /usr/bin/xmrig.sh
 
                 # Messaggio di completamento per xmrig
                 print_status "Configurazione di xmrig.sh completata con la criptovaluta scelta."
